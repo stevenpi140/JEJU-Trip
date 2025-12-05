@@ -1,0 +1,40 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/steven/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm exec create-vite@latest . --template react
+7 verbose argv "exec" "--yes" "--" "create-vite@latest" "." "--template" "react"
+8 verbose logfile logs-max:10 dir:/Users/steven/JEJU Trip/.npm-cache/_logs/2025-12-05T06_02_19_547Z-
+9 verbose logfile /Users/steven/JEJU Trip/.npm-cache/_logs/2025-12-05T06_02_19_547Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 http fetch GET 200 https://registry.npmjs.org/create-vite 91ms (cache miss)
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 http fetch GET 200 https://registry.npmjs.org/npm 154ms
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 silly idealTree buildDeps
+17 silly fetch manifest create-vite@8.2.0
+18 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/create-vite 35ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+21 silly placeDep ROOT create-vite@8.2.0 OK for:  want: 8.2.0
+22 silly reify moves {}
+23 silly audit bulk request { 'create-vite': [ '8.2.0' ] }
+24 http cache create-vite@https://registry.npmjs.org/create-vite/-/create-vite-8.2.0.tgz 0ms (cache hit)
+25 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-8.2.0.tgz. Extracting by manifest.
+26 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-8.2.0.tgz 64ms (cache miss)
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 224ms
+28 silly audit report {}
+29 verbose cwd /Users/steven/JEJU Trip
+30 verbose os Darwin 25.1.0
+31 verbose node v22.15.0
+32 verbose npm  v10.9.2
+33 notice
+33 notice New [31mmajor[39m version of npm available! [31m10.9.2[39m -> [34m11.6.4[39m
+33 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.6.4[39m
+33 notice To update run: [4mnpm install -g npm@11.6.4[24m
+33 notice  { force: true, [Symbol(proc-log.meta)]: true }
+34 verbose exit 0
+35 info ok
