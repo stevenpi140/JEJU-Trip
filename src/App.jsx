@@ -9,7 +9,11 @@ function App() {
         <div className="app">
             <header>
                 <div className="trip-dates">2025.12.24 - 12.29</div>
-                <h1>濟州島六天五夜之旅</h1>
+                <h1>
+                    <img src="/JEJU-Trip/images/tangerine-mascot.png" alt="Tangerine" style={{ width: '50px', verticalAlign: 'middle', marginRight: '10px' }} />
+                    濟州島六天五夜之旅
+                    <img src="/JEJU-Trip/images/tangerine-mascot.png" alt="Tangerine" style={{ width: '50px', verticalAlign: 'middle', marginLeft: '10px', transform: 'scaleX(-1)' }} />
+                </h1>
                 <p style={{ marginTop: '10px', color: 'var(--color-text-light)' }}>
                     沉浸橘子香氣與海風的放鬆旅程
                 </p>
